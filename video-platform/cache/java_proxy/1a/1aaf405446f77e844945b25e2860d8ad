@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,viewport-fit=cover"name="viewport" />
+</head>
+<body>
+  <div id="dplayer"></div>
+     <!--<script src="https://hd.ijycnd.com/js/1.25.1/DPlayer.min.js"></script>
+    <script src="https://hd.ijycnd.com/js/1.1.5/hls.js"></script>-->
+      <script src="https://s2.pstatp.com/cdn/expire-1-M/hls.js/1.1.5/hls.js"></script>
+      <script src="https://s2.pstatp.com/cdn/expire-1-M/dplayer/1.25.1/DPlayer.min.js"></script>
+  <script>
+    const dp = new DPlayer({
+      container: document.getElementById('dplayer'),
+      autoplay: true,
+      video: {
+        url: 'https://play.hhuus.com/play/e1w1LZjb/index.m3u8',
+        type: 'hls',
+      },
+      pluginOptions: {
+        hls: {
+           maxBufferLength: 120,           
+           maxMaxBufferLength: 120
+        },
+      },
+    });
+  </script>
+</body>

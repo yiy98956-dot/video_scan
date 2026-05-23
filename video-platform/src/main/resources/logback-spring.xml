@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 输出到控制台：只显示 WARN+ERROR + com.videoplatform 的 INFO -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %highlight(%-5level) [%15.15t] %cyan(%-40.40logger{39}) : %msg%n%rEx{full}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 输出到文件：保留全部日志，方便排查 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/server.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/server.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- ─── 全局级别 ─── -->
+    <root level="WARN">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <!-- ─── 项目代码 → INFO（控制台可见 [proxy] 等关键日志） ─── -->
+    <logger name="com.videoplatform" level="INFO" additivity="false">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </logger>
+
+    <!-- ─── 静默 MyBatis 无用的 DEBUG 日志 ─── -->
+    <logger name="com.baomidou.mybatisplus" level="WARN" />
+    <logger name="org.apache.ibatis" level="WARN" />
+    <logger name="org.mybatis" level="WARN" />
+
+    <!-- ─── Spring ─── -->
+    <logger name="org.springframework" level="WARN" />
+    <logger name="org.springframework.security" level="WARN" />
+    <logger name="org.springframework.web" level="WARN" />
+
+    <!-- ─── 其他 ─── -->
+    <logger name="io.netty" level="WARN" />
+    <logger name="reactor" level="WARN" />
+    <logger name="org.mongodb.driver" level="WARN" />
+</configuration>

@@ -1,0 +1,1452 @@
+{
+  "1": {
+    "id": 1,
+    "pid": 0,
+    "name": "电影",
+    "alias": "movie",
+    "is_show": true,
+    "sort": 1,
+    "subs": [
+      {
+        "id": 101,
+        "pid": 1,
+        "name": "动作",
+        "alias": "action",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 102,
+        "pid": 1,
+        "name": "喜剧",
+        "alias": "comedy",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 103,
+        "pid": 1,
+        "name": "爱情",
+        "alias": "romance",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 104,
+        "pid": 1,
+        "name": "科幻",
+        "alias": "sci-fi",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 105,
+        "pid": 1,
+        "name": "悬疑",
+        "alias": "suspense",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 106,
+        "pid": 1,
+        "name": "惊悚",
+        "alias": "thriller",
+        "is_show": true,
+        "sort": 6
+      },
+      {
+        "id": 107,
+        "pid": 1,
+        "name": "剧情",
+        "alias": "drama",
+        "is_show": true,
+        "sort": 7
+      },
+      {
+        "id": 108,
+        "pid": 1,
+        "name": "战争",
+        "alias": "war",
+        "is_show": true,
+        "sort": 8
+      },
+      {
+        "id": 109,
+        "pid": 1,
+        "name": "灾难",
+        "alias": "disaster",
+        "is_show": true,
+        "sort": 9
+      },
+      {
+        "id": 110,
+        "pid": 1,
+        "name": "犯罪",
+        "alias": "crime",
+        "is_show": true,
+        "sort": 10
+      },
+      {
+        "id": 111,
+        "pid": 1,
+        "name": "奇幻",
+        "alias": "fantasy",
+        "is_show": true,
+        "sort": 11
+      },
+      {
+        "id": 112,
+        "pid": 1,
+        "name": "文艺",
+        "alias": "literary",
+        "is_show": true,
+        "sort": 12
+      },
+      {
+        "id": 113,
+        "pid": 1,
+        "name": "动画电影",
+        "alias": "animated_film",
+        "is_show": true,
+        "sort": 13
+      },
+      {
+        "id": 114,
+        "pid": 1,
+        "name": "经典老片",
+        "alias": "classic",
+        "is_show": true,
+        "sort": 14
+      },
+      {
+        "id": 115,
+        "pid": 1,
+        "name": "伦理",
+        "alias": "ethics",
+        "is_show": true,
+        "sort": 15
+      }
+    ]
+  },
+  "101": {
+    "id": 101,
+    "pid": 1,
+    "name": "动作",
+    "alias": "action",
+    "is_show": true,
+    "sort": 1
+  },
+  "102": {
+    "id": 102,
+    "pid": 1,
+    "name": "喜剧",
+    "alias": "comedy",
+    "is_show": true,
+    "sort": 2
+  },
+  "103": {
+    "id": 103,
+    "pid": 1,
+    "name": "爱情",
+    "alias": "romance",
+    "is_show": true,
+    "sort": 3
+  },
+  "104": {
+    "id": 104,
+    "pid": 1,
+    "name": "科幻",
+    "alias": "sci-fi",
+    "is_show": true,
+    "sort": 4
+  },
+  "105": {
+    "id": 105,
+    "pid": 1,
+    "name": "悬疑",
+    "alias": "suspense",
+    "is_show": true,
+    "sort": 5
+  },
+  "106": {
+    "id": 106,
+    "pid": 1,
+    "name": "惊悚",
+    "alias": "thriller",
+    "is_show": true,
+    "sort": 6
+  },
+  "107": {
+    "id": 107,
+    "pid": 1,
+    "name": "剧情",
+    "alias": "drama",
+    "is_show": true,
+    "sort": 7
+  },
+  "108": {
+    "id": 108,
+    "pid": 1,
+    "name": "战争",
+    "alias": "war",
+    "is_show": true,
+    "sort": 8
+  },
+  "109": {
+    "id": 109,
+    "pid": 1,
+    "name": "灾难",
+    "alias": "disaster",
+    "is_show": true,
+    "sort": 9
+  },
+  "110": {
+    "id": 110,
+    "pid": 1,
+    "name": "犯罪",
+    "alias": "crime",
+    "is_show": true,
+    "sort": 10
+  },
+  "111": {
+    "id": 111,
+    "pid": 1,
+    "name": "奇幻",
+    "alias": "fantasy",
+    "is_show": true,
+    "sort": 11
+  },
+  "112": {
+    "id": 112,
+    "pid": 1,
+    "name": "文艺",
+    "alias": "literary",
+    "is_show": true,
+    "sort": 12
+  },
+  "113": {
+    "id": 113,
+    "pid": 1,
+    "name": "动画电影",
+    "alias": "animated_film",
+    "is_show": true,
+    "sort": 13
+  },
+  "114": {
+    "id": 114,
+    "pid": 1,
+    "name": "经典老片",
+    "alias": "classic",
+    "is_show": true,
+    "sort": 14
+  },
+  "115": {
+    "id": 115,
+    "pid": 1,
+    "name": "伦理",
+    "alias": "ethics",
+    "is_show": true,
+    "sort": 15
+  },
+  "2": {
+    "id": 2,
+    "pid": 0,
+    "name": "电视剧",
+    "alias": "tv",
+    "is_show": true,
+    "sort": 2,
+    "subs": [
+      {
+        "id": 201,
+        "pid": 2,
+        "name": "都市",
+        "alias": "urban",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 202,
+        "pid": 2,
+        "name": "古装",
+        "alias": "costume",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 203,
+        "pid": 2,
+        "name": "言情",
+        "alias": "romance_tv",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 204,
+        "pid": 2,
+        "name": "悬疑",
+        "alias": "suspense_tv",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 205,
+        "pid": 2,
+        "name": "谍战",
+        "alias": "spy",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 206,
+        "pid": 2,
+        "name": "军旅",
+        "alias": "military",
+        "is_show": true,
+        "sort": 6
+      },
+      {
+        "id": 207,
+        "pid": 2,
+        "name": "武侠",
+        "alias": "wuxia",
+        "is_show": true,
+        "sort": 7
+      },
+      {
+        "id": 208,
+        "pid": 2,
+        "name": "仙侠",
+        "alias": "xianxia",
+        "is_show": true,
+        "sort": 8
+      },
+      {
+        "id": 209,
+        "pid": 2,
+        "name": "年代",
+        "alias": "period",
+        "is_show": true,
+        "sort": 9
+      },
+      {
+        "id": 210,
+        "pid": 2,
+        "name": "家庭",
+        "alias": "family",
+        "is_show": true,
+        "sort": 10
+      },
+      {
+        "id": 211,
+        "pid": 2,
+        "name": "乡村",
+        "alias": "rural",
+        "is_show": true,
+        "sort": 11
+      },
+      {
+        "id": 212,
+        "pid": 2,
+        "name": "网剧",
+        "alias": "web_series",
+        "is_show": true,
+        "sort": 12
+      },
+      {
+        "id": 213,
+        "pid": 2,
+        "name": "港剧",
+        "alias": "hongkong_drama",
+        "is_show": true,
+        "sort": 13
+      },
+      {
+        "id": 214,
+        "pid": 2,
+        "name": "台剧",
+        "alias": "taiwan_drama",
+        "is_show": true,
+        "sort": 14
+      },
+      {
+        "id": 215,
+        "pid": 2,
+        "name": "韩剧",
+        "alias": "korean_drama",
+        "is_show": true,
+        "sort": 15
+      },
+      {
+        "id": 216,
+        "pid": 2,
+        "name": "美剧",
+        "alias": "american_drama",
+        "is_show": true,
+        "sort": 16
+      }
+    ]
+  },
+  "201": {
+    "id": 201,
+    "pid": 2,
+    "name": "都市",
+    "alias": "urban",
+    "is_show": true,
+    "sort": 1
+  },
+  "202": {
+    "id": 202,
+    "pid": 2,
+    "name": "古装",
+    "alias": "costume",
+    "is_show": true,
+    "sort": 2
+  },
+  "203": {
+    "id": 203,
+    "pid": 2,
+    "name": "言情",
+    "alias": "romance_tv",
+    "is_show": true,
+    "sort": 3
+  },
+  "204": {
+    "id": 204,
+    "pid": 2,
+    "name": "悬疑",
+    "alias": "suspense_tv",
+    "is_show": true,
+    "sort": 4
+  },
+  "205": {
+    "id": 205,
+    "pid": 2,
+    "name": "谍战",
+    "alias": "spy",
+    "is_show": true,
+    "sort": 5
+  },
+  "206": {
+    "id": 206,
+    "pid": 2,
+    "name": "军旅",
+    "alias": "military",
+    "is_show": true,
+    "sort": 6
+  },
+  "207": {
+    "id": 207,
+    "pid": 2,
+    "name": "武侠",
+    "alias": "wuxia",
+    "is_show": true,
+    "sort": 7
+  },
+  "208": {
+    "id": 208,
+    "pid": 2,
+    "name": "仙侠",
+    "alias": "xianxia",
+    "is_show": true,
+    "sort": 8
+  },
+  "209": {
+    "id": 209,
+    "pid": 2,
+    "name": "年代",
+    "alias": "period",
+    "is_show": true,
+    "sort": 9
+  },
+  "210": {
+    "id": 210,
+    "pid": 2,
+    "name": "家庭",
+    "alias": "family",
+    "is_show": true,
+    "sort": 10
+  },
+  "211": {
+    "id": 211,
+    "pid": 2,
+    "name": "乡村",
+    "alias": "rural",
+    "is_show": true,
+    "sort": 11
+  },
+  "212": {
+    "id": 212,
+    "pid": 2,
+    "name": "网剧",
+    "alias": "web_series",
+    "is_show": true,
+    "sort": 12
+  },
+  "213": {
+    "id": 213,
+    "pid": 2,
+    "name": "港剧",
+    "alias": "hongkong_drama",
+    "is_show": true,
+    "sort": 13
+  },
+  "214": {
+    "id": 214,
+    "pid": 2,
+    "name": "台剧",
+    "alias": "taiwan_drama",
+    "is_show": true,
+    "sort": 14
+  },
+  "215": {
+    "id": 215,
+    "pid": 2,
+    "name": "韩剧",
+    "alias": "korean_drama",
+    "is_show": true,
+    "sort": 15
+  },
+  "216": {
+    "id": 216,
+    "pid": 2,
+    "name": "美剧",
+    "alias": "american_drama",
+    "is_show": true,
+    "sort": 16
+  },
+  "3": {
+    "id": 3,
+    "pid": 0,
+    "name": "短剧",
+    "alias": "short",
+    "is_show": true,
+    "sort": 3,
+    "subs": [
+      {
+        "id": 301,
+        "pid": 3,
+        "name": "甜宠",
+        "alias": "sweet_love",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 302,
+        "pid": 3,
+        "name": "赘婿",
+        "alias": "soninlaw",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 303,
+        "pid": 3,
+        "name": "逆袭",
+        "alias": "comeback",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 304,
+        "pid": 3,
+        "name": "玄幻",
+        "alias": "fantasy_short",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 305,
+        "pid": 3,
+        "name": "古风",
+        "alias": "ancient_short",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 306,
+        "pid": 3,
+        "name": "复仇",
+        "alias": "revenge",
+        "is_show": true,
+        "sort": 6
+      },
+      {
+        "id": 307,
+        "pid": 3,
+        "name": "豪门",
+        "alias": "rich_family",
+        "is_show": true,
+        "sort": 7
+      },
+      {
+        "id": 308,
+        "pid": 3,
+        "name": "校园",
+        "alias": "campus",
+        "is_show": true,
+        "sort": 8
+      },
+      {
+        "id": 309,
+        "pid": 3,
+        "name": "穿越",
+        "alias": "time_travel",
+        "is_show": true,
+        "sort": 9
+      },
+      {
+        "id": 310,
+        "pid": 3,
+        "name": "都市逆袭",
+        "alias": "urban_reverse",
+        "is_show": true,
+        "sort": 10
+      }
+    ]
+  },
+  "301": {
+    "id": 301,
+    "pid": 3,
+    "name": "甜宠",
+    "alias": "sweet_love",
+    "is_show": true,
+    "sort": 1
+  },
+  "302": {
+    "id": 302,
+    "pid": 3,
+    "name": "赘婿",
+    "alias": "soninlaw",
+    "is_show": true,
+    "sort": 2
+  },
+  "303": {
+    "id": 303,
+    "pid": 3,
+    "name": "逆袭",
+    "alias": "comeback",
+    "is_show": true,
+    "sort": 3
+  },
+  "304": {
+    "id": 304,
+    "pid": 3,
+    "name": "玄幻",
+    "alias": "fantasy_short",
+    "is_show": true,
+    "sort": 4
+  },
+  "305": {
+    "id": 305,
+    "pid": 3,
+    "name": "古风",
+    "alias": "ancient_short",
+    "is_show": true,
+    "sort": 5
+  },
+  "306": {
+    "id": 306,
+    "pid": 3,
+    "name": "复仇",
+    "alias": "revenge",
+    "is_show": true,
+    "sort": 6
+  },
+  "307": {
+    "id": 307,
+    "pid": 3,
+    "name": "豪门",
+    "alias": "rich_family",
+    "is_show": true,
+    "sort": 7
+  },
+  "308": {
+    "id": 308,
+    "pid": 3,
+    "name": "校园",
+    "alias": "campus",
+    "is_show": true,
+    "sort": 8
+  },
+  "309": {
+    "id": 309,
+    "pid": 3,
+    "name": "穿越",
+    "alias": "time_travel",
+    "is_show": true,
+    "sort": 9
+  },
+  "310": {
+    "id": 310,
+    "pid": 3,
+    "name": "都市逆袭",
+    "alias": "urban_reverse",
+    "is_show": true,
+    "sort": 10
+  },
+  "4": {
+    "id": 4,
+    "pid": 0,
+    "name": "动漫",
+    "alias": "anime",
+    "is_show": true,
+    "sort": 4,
+    "subs": [
+      {
+        "id": 401,
+        "pid": 4,
+        "name": "国漫",
+        "alias": "domestic_anime",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 402,
+        "pid": 4,
+        "name": "日漫",
+        "alias": "japanese_anime",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 403,
+        "pid": 4,
+        "name": "欧美动漫",
+        "alias": "western_anime",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 404,
+        "pid": 4,
+        "name": "热血",
+        "alias": "hot_blood",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 405,
+        "pid": 4,
+        "name": "恋爱",
+        "alias": "love_anime",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 406,
+        "pid": 4,
+        "name": "奇幻",
+        "alias": "fantasy_anime",
+        "is_show": true,
+        "sort": 6
+      },
+      {
+        "id": 407,
+        "pid": 4,
+        "name": "冒险",
+        "alias": "adventure",
+        "is_show": true,
+        "sort": 7
+      },
+      {
+        "id": 408,
+        "pid": 4,
+        "name": "校园",
+        "alias": "campus_anime",
+        "is_show": true,
+        "sort": 8
+      },
+      {
+        "id": 409,
+        "pid": 4,
+        "name": "古风",
+        "alias": "ancient_anime",
+        "is_show": true,
+        "sort": 9
+      },
+      {
+        "id": 410,
+        "pid": 4,
+        "name": "治愈",
+        "alias": "healing",
+        "is_show": true,
+        "sort": 10
+      },
+      {
+        "id": 411,
+        "pid": 4,
+        "name": "悬疑",
+        "alias": "suspense_anime",
+        "is_show": true,
+        "sort": 11
+      },
+      {
+        "id": 412,
+        "pid": 4,
+        "name": "少儿动漫",
+        "alias": "kids_anime",
+        "is_show": true,
+        "sort": 12
+      }
+    ]
+  },
+  "401": {
+    "id": 401,
+    "pid": 4,
+    "name": "国漫",
+    "alias": "domestic_anime",
+    "is_show": true,
+    "sort": 1
+  },
+  "402": {
+    "id": 402,
+    "pid": 4,
+    "name": "日漫",
+    "alias": "japanese_anime",
+    "is_show": true,
+    "sort": 2
+  },
+  "403": {
+    "id": 403,
+    "pid": 4,
+    "name": "欧美动漫",
+    "alias": "western_anime",
+    "is_show": true,
+    "sort": 3
+  },
+  "404": {
+    "id": 404,
+    "pid": 4,
+    "name": "热血",
+    "alias": "hot_blood",
+    "is_show": true,
+    "sort": 4
+  },
+  "405": {
+    "id": 405,
+    "pid": 4,
+    "name": "恋爱",
+    "alias": "love_anime",
+    "is_show": true,
+    "sort": 5
+  },
+  "406": {
+    "id": 406,
+    "pid": 4,
+    "name": "奇幻",
+    "alias": "fantasy_anime",
+    "is_show": true,
+    "sort": 6
+  },
+  "407": {
+    "id": 407,
+    "pid": 4,
+    "name": "冒险",
+    "alias": "adventure",
+    "is_show": true,
+    "sort": 7
+  },
+  "408": {
+    "id": 408,
+    "pid": 4,
+    "name": "校园",
+    "alias": "campus_anime",
+    "is_show": true,
+    "sort": 8
+  },
+  "409": {
+    "id": 409,
+    "pid": 4,
+    "name": "古风",
+    "alias": "ancient_anime",
+    "is_show": true,
+    "sort": 9
+  },
+  "410": {
+    "id": 410,
+    "pid": 4,
+    "name": "治愈",
+    "alias": "healing",
+    "is_show": true,
+    "sort": 10
+  },
+  "411": {
+    "id": 411,
+    "pid": 4,
+    "name": "悬疑",
+    "alias": "suspense_anime",
+    "is_show": true,
+    "sort": 11
+  },
+  "412": {
+    "id": 412,
+    "pid": 4,
+    "name": "少儿动漫",
+    "alias": "kids_anime",
+    "is_show": true,
+    "sort": 12
+  },
+  "5": {
+    "id": 5,
+    "pid": 0,
+    "name": "综艺",
+    "alias": "variety",
+    "is_show": true,
+    "sort": 5,
+    "subs": [
+      {
+        "id": 501,
+        "pid": 5,
+        "name": "真人秀",
+        "alias": "reality_show",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 502,
+        "pid": 5,
+        "name": "选秀",
+        "alias": "talent_show",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 503,
+        "pid": 5,
+        "name": "音乐",
+        "alias": "music_show",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 504,
+        "pid": 5,
+        "name": "脱口秀",
+        "alias": "talk_show",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 505,
+        "pid": 5,
+        "name": "情感",
+        "alias": "emotion",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 506,
+        "pid": 5,
+        "name": "亲子",
+        "alias": "parenting",
+        "is_show": true,
+        "sort": 6
+      },
+      {
+        "id": 507,
+        "pid": 5,
+        "name": "户外",
+        "alias": "outdoor",
+        "is_show": true,
+        "sort": 7
+      },
+      {
+        "id": 508,
+        "pid": 5,
+        "name": "美食",
+        "alias": "food",
+        "is_show": true,
+        "sort": 8
+      },
+      {
+        "id": 509,
+        "pid": 5,
+        "name": "职场",
+        "alias": "workplace",
+        "is_show": true,
+        "sort": 9
+      },
+      {
+        "id": 510,
+        "pid": 5,
+        "name": "搞笑综艺",
+        "alias": "funny_show",
+        "is_show": true,
+        "sort": 10
+      }
+    ]
+  },
+  "501": {
+    "id": 501,
+    "pid": 5,
+    "name": "真人秀",
+    "alias": "reality_show",
+    "is_show": true,
+    "sort": 1
+  },
+  "502": {
+    "id": 502,
+    "pid": 5,
+    "name": "选秀",
+    "alias": "talent_show",
+    "is_show": true,
+    "sort": 2
+  },
+  "503": {
+    "id": 503,
+    "pid": 5,
+    "name": "音乐",
+    "alias": "music_show",
+    "is_show": true,
+    "sort": 3
+  },
+  "504": {
+    "id": 504,
+    "pid": 5,
+    "name": "脱口秀",
+    "alias": "talk_show",
+    "is_show": true,
+    "sort": 4
+  },
+  "505": {
+    "id": 505,
+    "pid": 5,
+    "name": "情感",
+    "alias": "emotion",
+    "is_show": true,
+    "sort": 5
+  },
+  "506": {
+    "id": 506,
+    "pid": 5,
+    "name": "亲子",
+    "alias": "parenting",
+    "is_show": true,
+    "sort": 6
+  },
+  "507": {
+    "id": 507,
+    "pid": 5,
+    "name": "户外",
+    "alias": "outdoor",
+    "is_show": true,
+    "sort": 7
+  },
+  "508": {
+    "id": 508,
+    "pid": 5,
+    "name": "美食",
+    "alias": "food",
+    "is_show": true,
+    "sort": 8
+  },
+  "509": {
+    "id": 509,
+    "pid": 5,
+    "name": "职场",
+    "alias": "workplace",
+    "is_show": true,
+    "sort": 9
+  },
+  "510": {
+    "id": 510,
+    "pid": 5,
+    "name": "搞笑综艺",
+    "alias": "funny_show",
+    "is_show": true,
+    "sort": 10
+  },
+  "6": {
+    "id": 6,
+    "pid": 0,
+    "name": "纪录片",
+    "alias": "documentary",
+    "is_show": true,
+    "sort": 6,
+    "subs": [
+      {
+        "id": 601,
+        "pid": 6,
+        "name": "人文历史",
+        "alias": "history_culture",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 602,
+        "pid": 6,
+        "name": "自然地理",
+        "alias": "nature_geo",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 603,
+        "pid": 6,
+        "name": "军事",
+        "alias": "military_doc",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 604,
+        "pid": 6,
+        "name": "美食",
+        "alias": "food_doc",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 605,
+        "pid": 6,
+        "name": "人物",
+        "alias": "biography",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 606,
+        "pid": 6,
+        "name": "社会",
+        "alias": "society",
+        "is_show": true,
+        "sort": 6
+      },
+      {
+        "id": 607,
+        "pid": 6,
+        "name": "动物",
+        "alias": "animal",
+        "is_show": true,
+        "sort": 7
+      },
+      {
+        "id": 608,
+        "pid": 6,
+        "name": "科技",
+        "alias": "technology",
+        "is_show": true,
+        "sort": 8
+      }
+    ]
+  },
+  "601": {
+    "id": 601,
+    "pid": 6,
+    "name": "人文历史",
+    "alias": "history_culture",
+    "is_show": true,
+    "sort": 1
+  },
+  "602": {
+    "id": 602,
+    "pid": 6,
+    "name": "自然地理",
+    "alias": "nature_geo",
+    "is_show": true,
+    "sort": 2
+  },
+  "603": {
+    "id": 603,
+    "pid": 6,
+    "name": "军事",
+    "alias": "military_doc",
+    "is_show": true,
+    "sort": 3
+  },
+  "604": {
+    "id": 604,
+    "pid": 6,
+    "name": "美食",
+    "alias": "food_doc",
+    "is_show": true,
+    "sort": 4
+  },
+  "605": {
+    "id": 605,
+    "pid": 6,
+    "name": "人物",
+    "alias": "biography",
+    "is_show": true,
+    "sort": 5
+  },
+  "606": {
+    "id": 606,
+    "pid": 6,
+    "name": "社会",
+    "alias": "society",
+    "is_show": true,
+    "sort": 6
+  },
+  "607": {
+    "id": 607,
+    "pid": 6,
+    "name": "动物",
+    "alias": "animal",
+    "is_show": true,
+    "sort": 7
+  },
+  "608": {
+    "id": 608,
+    "pid": 6,
+    "name": "科技",
+    "alias": "technology",
+    "is_show": true,
+    "sort": 8
+  },
+  "7": {
+    "id": 7,
+    "pid": 0,
+    "name": "少儿",
+    "alias": "kids",
+    "is_show": true,
+    "sort": 7,
+    "subs": [
+      {
+        "id": 701,
+        "pid": 7,
+        "name": "早教",
+        "alias": "early_edu",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 702,
+        "pid": 7,
+        "name": "儿歌",
+        "alias": "nursery_rhyme",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 703,
+        "pid": 7,
+        "name": "动画片",
+        "alias": "cartoon",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 704,
+        "pid": 7,
+        "name": "绘本",
+        "alias": "picture_book",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 705,
+        "pid": 7,
+        "name": "益智",
+        "alias": "puzzle",
+        "is_show": true,
+        "sort": 5
+      },
+      {
+        "id": 706,
+        "pid": 7,
+        "name": "亲子节目",
+        "alias": "parenting_kids",
+        "is_show": true,
+        "sort": 6
+      }
+    ]
+  },
+  "701": {
+    "id": 701,
+    "pid": 7,
+    "name": "早教",
+    "alias": "early_edu",
+    "is_show": true,
+    "sort": 1
+  },
+  "702": {
+    "id": 702,
+    "pid": 7,
+    "name": "儿歌",
+    "alias": "nursery_rhyme",
+    "is_show": true,
+    "sort": 2
+  },
+  "703": {
+    "id": 703,
+    "pid": 7,
+    "name": "动画片",
+    "alias": "cartoon",
+    "is_show": true,
+    "sort": 3
+  },
+  "704": {
+    "id": 704,
+    "pid": 7,
+    "name": "绘本",
+    "alias": "picture_book",
+    "is_show": true,
+    "sort": 4
+  },
+  "705": {
+    "id": 705,
+    "pid": 7,
+    "name": "益智",
+    "alias": "puzzle",
+    "is_show": true,
+    "sort": 5
+  },
+  "706": {
+    "id": 706,
+    "pid": 7,
+    "name": "亲子节目",
+    "alias": "parenting_kids",
+    "is_show": true,
+    "sort": 6
+  },
+  "8": {
+    "id": 8,
+    "pid": 0,
+    "name": "体育",
+    "alias": "sports",
+    "is_show": true,
+    "sort": 8,
+    "subs": [
+      {
+        "id": 801,
+        "pid": 8,
+        "name": "足球",
+        "alias": "football",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 802,
+        "pid": 8,
+        "name": "篮球",
+        "alias": "basketball",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 803,
+        "pid": 8,
+        "name": "格斗",
+        "alias": "fighting",
+        "is_show": true,
+        "sort": 3
+      },
+      {
+        "id": 804,
+        "pid": 8,
+        "name": "电竞",
+        "alias": "esports",
+        "is_show": true,
+        "sort": 4
+      },
+      {
+        "id": 805,
+        "pid": 8,
+        "name": "综合赛事",
+        "alias": "sports_other",
+        "is_show": true,
+        "sort": 5
+      }
+    ]
+  },
+  "801": {
+    "id": 801,
+    "pid": 8,
+    "name": "足球",
+    "alias": "football",
+    "is_show": true,
+    "sort": 1
+  },
+  "802": {
+    "id": 802,
+    "pid": 8,
+    "name": "篮球",
+    "alias": "basketball",
+    "is_show": true,
+    "sort": 2
+  },
+  "803": {
+    "id": 803,
+    "pid": 8,
+    "name": "格斗",
+    "alias": "fighting",
+    "is_show": true,
+    "sort": 3
+  },
+  "804": {
+    "id": 804,
+    "pid": 8,
+    "name": "电竞",
+    "alias": "esports",
+    "is_show": true,
+    "sort": 4
+  },
+  "805": {
+    "id": 805,
+    "pid": 8,
+    "name": "综合赛事",
+    "alias": "sports_other",
+    "is_show": true,
+    "sort": 5
+  },
+  "9": {
+    "id": 9,
+    "pid": 0,
+    "name": "资讯",
+    "alias": "news",
+    "is_show": true,
+    "sort": 9,
+    "subs": [
+      {
+        "id": 901,
+        "pid": 9,
+        "name": "娱乐资讯",
+        "alias": "entertainment",
+        "is_show": true,
+        "sort": 1
+      },
+      {
+        "id": 902,
+        "pid": 9,
+        "name": "影视资讯",
+        "alias": "film_news",
+        "is_show": true,
+        "sort": 2
+      },
+      {
+        "id": 903,
+        "pid": 9,
+        "name": "社会热点",
+        "alias": "hot_news",
+        "is_show": true,
+        "sort": 3
+      }
+    ]
+  },
+  "901": {
+    "id": 901,
+    "pid": 9,
+    "name": "娱乐资讯",
+    "alias": "entertainment",
+    "is_show": true,
+    "sort": 1
+  },
+  "902": {
+    "id": 902,
+    "pid": 9,
+    "name": "影视资讯",
+    "alias": "film_news",
+    "is_show": true,
+    "sort": 2
+  },
+  "903": {
+    "id": 903,
+    "pid": 9,
+    "name": "社会热点",
+    "alias": "hot_news",
+    "is_show": true,
+    "sort": 3
+  }
+}

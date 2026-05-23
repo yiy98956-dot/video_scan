@@ -1,0 +1,120 @@
+@import url('https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0d0a08;
+  --color-bg-2: #14100c;
+  --color-surface: #1e1814;
+  --color-surface-2: #28211b;
+  --color-surface-3: #322a22;
+  --color-border: rgba(201, 169, 110, 0.12);
+  --color-border-light: rgba(201, 169, 110, 0.2);
+  --color-gold: #c9a96e;
+  --color-gold-light: #e8d5a3;
+  --color-gold-dark: #a8884e;
+  --color-cream: #f5efe8;
+  --color-text: #ece4d8;
+  --color-text-secondary: #a09888;
+  --color-accent: #8b6f4c;
+}
+
+body {
+  background-color: #0d0a08;
+  color: #ece4d8;
+  font-family: 'Noto Serif SC', serif;
+  -webkit-font-smoothing: antialiased;
+}
+.font-serif-en { font-family: 'Playfair Display', serif; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0d0a08; }
+::-webkit-scrollbar-thumb { background: rgba(201, 169, 110, 0.2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(201, 169, 110, 0.35); }
+
+.glass {
+  background: rgba(26, 20, 16, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(201, 169, 110, 0.08);
+}
+
+.glow-gold {
+  box-shadow: 0 0 30px rgba(201, 169, 110, 0.08), 0 0 60px rgba(201, 169, 110, 0.03);
+}
+
+/* 金色渐变装饰 */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201, 169, 110, 0.3), transparent);
+}
+
+/* 顶部渐变光晕 */
+.hero-glow {
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 600px;
+  background: radial-gradient(ellipse at center, rgba(201,169,110,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* 卡片悬浮立体阴影 */
+.card-shadow {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card-shadow:hover {
+  box-shadow: 0 8px 32px rgba(201,169,110,0.12), 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* 文字渐变标题 */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #c9a96e, #e8d5a3, #c9a96e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes shimmer-gold {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes scroll-hint {
+  0%, 100% { transform: translateX(0); opacity: 0.5; }
+  50% { transform: translateX(8px); opacity: 1; }
+}
+.animate-fade-up { animation: fade-up 0.6s ease-out both; }
+.animate-fade-in { animation: fade-in 0.4s ease-out both; }
+.animate-shimmer-gold {
+  background: linear-gradient(90deg, transparent, rgba(201,169,110,0.12), transparent);
+  background-size: 200% 100%;
+  animation: shimmer-gold 3s ease-in-out infinite;
+}
+
+/* ── 路由过渡动画 ── */
+.page-transition {
+  will-change: opacity, transform;
+}
+.page-enter {
+  animation: page-in 0.25s ease-out both;
+}
+.page-exit {
+  animation: page-out 0.15s ease-in both;
+}
+@keyframes page-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes page-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

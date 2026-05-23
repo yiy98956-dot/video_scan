@@ -1,0 +1,61 @@
+# ============================================
+# 影视平台项目 - Git 忽略文件
+# ============================================
+
+# ── 操作系统 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ── IDE ──
+.idea/
+.vscode/
+*.iml
+
+# ── Java / Maven ──
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# ── 本地配置（敏感信息）──
+application-local.yml
+application-prod.yml
+application-dev.yml
+
+# ── Node.js ──
+node_modules/
+npm-debug.log*
+
+# ── 前端构建 ──
+dist/
+build/
+.vite/
+.env
+.env.local
+
+# ── Go ──
+*.exe
+*.test
+*.out
+
+# ── Go Server 运行时 ──
+go-server/cache/
+go-server/logs/
+go-server/data/
+*.cache
+
+# ── 上传文件 ──
+avatars/
+uploads/
+
+# ── 日志 ──
+logs/
+*.log
+
+# ── 敏感文件 ──
+*.pem
+*.key
+secrets.json

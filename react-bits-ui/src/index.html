@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="影视星河 - 每一帧都值得被看见" />
+    <meta name="keywords" content="影视,电影,电视剧,动漫,综艺" />
+    <meta property="og:title" content="影视星河" />
+    <meta property="og:description" content="每一帧都值得被看见" />
+    <title>影视星河</title>
+    <!-- 字体：使用国内镜像，避免 Google Fonts 被墙 -->
+    <link rel="preconnect" href="https://fonts.loli.net" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" />
+    <link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- 内联关键样式：消除白屏闪烁 -->
+    <style>
+      body{background:#0d0a08;color:#ece4d8;margin:0;font-family:'Noto Serif SC',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+      #app{min-height:100vh}
+      .initial-loader{display:flex;align-items:center;justify-content:center;min-height:100vh;gap:8px}
+      .initial-loader span{width:6px;height:6px;border-radius:50%;background:rgba(201,169,110,0.5);animation:ilb 1s ease-in-out infinite}
+      .initial-loader span:nth-child(2){animation-delay:.15s}
+      .initial-loader span:nth-child(3){animation-delay:.3s}
+      @keyframes ilb{0%,100%{opacity:.3;transform:scale(.8)}50%{opacity:1;transform:scale(1)}}
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 初始加载指示器，React 挂载后自动替换 -->
+      <div class="initial-loader">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>

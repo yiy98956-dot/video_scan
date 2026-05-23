@@ -1,0 +1,59 @@
+#EXTM3U
+# PlayerServer 1080p 直播频道列表
+# 所有频道均已验证可用且为 1080p 及以上分辨率
+# 更新日期: 2026-05-09
+# 来源: iptv-org/iptv + 自有源
+
+# ═══════════════════ 央视 ═══════════════════
+
+#EXTINF:-1 tvg-id="CCTV-4America.us" group-title="央视",CCTV-4 America [1080p]
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+#EXTINF:-1 tvg-id="CCTV-13.cn" group-title="央视",CCTV-13 [1080p]
+https://cdn3.163189.xyz/163189/cctv13
+#EXTINF:-1 tvg-id="CGTN.cn" group-title="央视",CGTN [1080p]
+https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="CGTNGlobalBiz.cn" group-title="央视",CGTN Global Biz [1080p]
+https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn" group-title="央视",CGTN Documentary [1080p]
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+
+# ═══════════════════ 卫视 ═══════════════════
+
+#EXTINF:-1 tvg-id="HunanTV.cn" group-title="卫视",Hunan TV [4K 2160p]
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 tvg-id="ZhejiangTV.cn" group-title="卫视",Zhejiang TV International [1080p]
+https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+
+# ═══════════════════ 纪录 ═══════════════════
+
+#EXTINF:-1 tvg-id="ChinaTravel.cn" group-title="纪录",China Travel [1080p]
+https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnchinatravel-distrotvus/playlist.m3u8
+#EXTINF:-1 tvg-id="DiscoveringChina.cn" group-title="纪录",Discovering China [1080p]
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8
+#EXTINF:-1 tvg-id="ZhijiangDoc.cn" group-title="纪录",之江纪录 [1080p]
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+
+# ═══════════════════ 新闻 ═══════════════════
+
+#EXTINF:-1 tvg-id="VOA.cn" group-title="新闻",VOA 美国之音 [1080p]
+https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+
+# ═══════════════════ 户外 ═══════════════════
+
+#EXTINF:-1 tvg-id="LoveNature.ca" group-title="户外",Love Nature [1080p]
+https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
+
+# ═══════════════════ 综合 ═══════════════════
+
+#EXTINF:-1 tvg-id="TonghuaTV.cn" group-title="综合",Tonghua TV 通化台 [1080p]
+https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
+
+# ═══════════════════ 娱乐 ═══════════════════
+
+#EXTINF:-1 tvg-id="meWATCHLIVE1.sg" group-title="娱乐",meWATCH LIVE 1 [1080p DASH]
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
+
+# ═══════════════════ 宗教 ═══════════════════
+
+#EXTINF:-1 tvg-id="CGNTVChinese.tw" group-title="宗教",CGNTV Chinese [1080p]
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
